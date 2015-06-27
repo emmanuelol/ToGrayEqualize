@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="@W [SYN-103] Legalizing function name 'toGray_Mat2AXIvideo&lt;8, 1080, 1920, 0>' to 'toGray_Mat2AXIvideo_8_1080_1920_0_s'." projectName="grayScale_IP" solutionName="solution1" date="2015-06-26T19:31:13.593+0200" type="Warning"/>
+        <logs message="@W [SYN-103] Legalizing function name 'toGray_Block__proc' to 'toGray_Block_proc'." projectName="grayScale_IP" solutionName="solution1" date="2015-06-26T19:31:13.559+0200" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'hls_lut_V'." projectName="grayScale_IP" solutionName="solution1" date="2015-06-26T19:31:13.540+0200" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'hist_out_V' (C:/Xilinx/Vivado_HLS/2014.4/common/technology/autopilot/hls/hls_video_histogram.h:51)." projectName="grayScale_IP" solutionName="solution1" date="2015-06-26T19:31:12.951+0200" type="Warning"/>
+        <logs message="@W [XFORM-631] Renaming function 'hls::Mat2AXIvideo&lt;8, 1080, 1920, 0>' (C:/Xilinx/Vivado_HLS/2014.4/common/technology/autopilot/hls/hls_video_io.h:111) into Mat2AXIvideo&lt;8, 1080, 1920, 0>." projectName="grayScale_IP" solutionName="solution1" date="2015-06-26T19:31:12.925+0200" type="Warning"/>
+        <logs message="@W [XFORM-631] Renaming function 'hls::Equalize&lt;0, 0, 1080, 1920, 256>' (C:/Xilinx/Vivado_HLS/2014.4/common/technology/autopilot/hls/hls_video_histogram.h:51:36) into Equalize." projectName="grayScale_IP" solutionName="solution1" date="2015-06-26T19:31:12.576+0200" type="Warning"/>
+        <logs message="@W [XFORM-631] Renaming function 'hls::CvtColor&lt;HLS_BGR2GRAY, 32, 0, 1080, 1920>' (C:/Xilinx/Vivado_HLS/2014.4/common/technology/autopilot/hls/hls_video_imgproc.h:398:42) into CvtColor." projectName="grayScale_IP" solutionName="solution1" date="2015-06-26T19:31:12.562+0200" type="Warning"/>
+        <logs message="@W [XFORM-631] Renaming function 'hls::AXIvideo2Mat&lt;24, 1080, 1920, 32>' (C:/Xilinx/Vivado_HLS/2014.4/common/technology/autopilot/hls/hls_video_io.h:49:46) into AXIvideo2Mat." projectName="grayScale_IP" solutionName="solution1" date="2015-06-26T19:31:12.549+0200" type="Warning"/>
+        <logs message="@W [XFORM-1103] Ignored data pack directive on non-struct variable 'grayMat.data_stream.V' (top.cpp:18)." projectName="grayScale_IP" solutionName="solution1" date="2015-06-26T19:31:10.215+0200" type="Warning"/>
+        <logs message="@W [XFORM-1103] Ignored data pack directive on non-struct variable 'inMat.data_stream.V' (top.cpp:17)." projectName="grayScale_IP" solutionName="solution1" date="2015-06-26T19:31:10.081+0200" type="Warning"/>
+        <logs message="@W [SYNCHK-23] C:/Xilinx/Vivado_HLS/2014.4/common/technology/autopilot/hls/hls_axi_io.h:49: variable-indexed range selection may cause suboptimal QoR." projectName="grayScale_IP" solutionName="solution1" date="2015-06-26T19:31:09.560+0200" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

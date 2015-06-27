@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="top.cpp" path="C:\Xilinx\Projects\attention_detect\grayScale_IP_hls\top.cpp"/>
+    <originFiles name="top.h" path="C:\Xilinx\Projects\attention_detect\grayScale_IP_hls\top.h"/>
+  </source>
+  <testbench>
+    <originFiles name="Koala.jpg" path="C:\Xilinx\Projects\attention_detect\grayScale_IP_hls\Koala.jpg"/>
+    <originFiles name="test.cpp" path="C:\Xilinx\Projects\attention_detect\grayScale_IP_hls\test.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>
